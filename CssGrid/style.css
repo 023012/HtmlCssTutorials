@@ -1,0 +1,25 @@
+main {
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "side content content"
+    "foot foot foot";
+  grid-template-rows: 30px auto 30px;
+}
+header {
+  background: brown;
+  grid-area: head;
+}
+article {
+  background: green;
+  grid-area: content;
+}
+
+aside {
+  background: yellow;
+  grid-area: side;
+}
+footer {
+  background: purple;
+  grid-area: foot;
+}
